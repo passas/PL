@@ -1,4 +1,4 @@
-> Métodos de Captura
+Métodos de Captura
 ```
 re.match
 re.search
