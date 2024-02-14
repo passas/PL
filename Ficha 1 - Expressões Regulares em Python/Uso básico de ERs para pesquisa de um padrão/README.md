@@ -11,3 +11,10 @@ Notação de Captura
 ```
 (?i: )
 ```
+
+\
+Métodos de Substituição (da captura)
+```
+re.sub
+re.subn
+```
