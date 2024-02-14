@@ -5,3 +5,9 @@ re.search
 
 re.findall
 ```
+
+\
+Notação de Captura
+```
+(?i: )
+```
