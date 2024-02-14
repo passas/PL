@@ -19,7 +19,7 @@ if __name__ == '__main__':
     
     #Encontrei a expressão regular na linha
     if(resultado):
-      #Extrair a frase -linha- de onde foi encontrada a expressão regular
+      #Extraír a frase -linha- de onde foi encontrada a expressão regular
       resultado.string
       #Extraír o grupo capturado na frase -linha- através da expressão regular designada
       resultado.group() 
