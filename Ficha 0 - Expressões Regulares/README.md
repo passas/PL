@@ -26,5 +26,13 @@
     2. E
 ```
 ```
-3 - 
+3 - A sequência dos caractéres 'ab' pelo menos uma vez, podendo ser repetidos N vezes,
+   e a opcionalidade do aparecimento de um ou mais caractéres 'a'.
+
+    3. ab
+    3. (ab..ab)
+    3. aba
+    3. ab(a..a)
+    3. (ab..ab)a
+    3. (ab..ab)(a..a)
 ```
