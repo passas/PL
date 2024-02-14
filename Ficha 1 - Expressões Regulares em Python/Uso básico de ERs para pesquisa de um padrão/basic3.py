@@ -22,7 +22,7 @@ if __name__ == '__main__':
     string_resultado = re.sub(expressao_regular, string_substituta, buffer_stdin)
     
     #Encontrei, e substituí, a expressão regular na linha
-    if(string_resultado != buffer_stdin):
+    if(string_resultado != buffer_stdin): #Theta (N)
       
       #-stdout-: Resultado -string- da substituição das expressões encontradas
       print (string_resultado)
