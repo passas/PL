@@ -2,7 +2,7 @@
 +  <=> 1..N
 *  <=> 0..N
 ```
-
+\
 **Exercício 1**
 ```
 1 - O vazio, ou a sequência de um ou mais caractéres entre "a escolha" de 'a' ou 'b'.
@@ -52,5 +52,49 @@
     4. a(baa..bba)b
 ```
 ```
-5 - 
+5 - O aparecimento do caractér 'a', pelo menos uma vez, seguido da possibilidade
+   do aparecimento do caractér 'b' N vezes.
+
+    5. a
+    5. aa
+    5. ab
+    5. a..ab
+    5. a..ab..b
+    5. ab..b
+```
+\
+\
+**Exercício 2**
+```
+1 -
+    1. ba
+```
+```
+2 -
+    2. c
+```
+```
+3 -
+    3. bc
+```
+\
+\
+\
+```|| <=> ou```\
+\
+\
+**Exercício 3**
+```
+ ________________________________
+|             |                  |
+|     ER      |      Captura     |
+|_____________|__________________|
+|    (ab)+    |       abab       |
+|             |                  |
+|     c       |        c         |
+|             |                  |
+|  (d||fe+b)* |      feebd       |
+|             |                  |
+|     a       |        a         |
+|_____________|__________________|
 ```
