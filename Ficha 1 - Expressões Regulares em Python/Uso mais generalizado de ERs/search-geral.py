@@ -7,7 +7,7 @@ expressao_regular_2 = r'^(PRH|JCR)'
 expressao_regular_3 = r'^[0-9]+' #r'^\d+'
 expressao_regular_4 = r'PMoura$'
 expressao_regular_5 = r'[a-z|A-Z|!.]$' #r'(?i:[A-Z|.!]$)'
-expressao_regular_6 = r''
+expressao_regular_6 = r'^[0-9-.]+$'
 expressao_regular_7 = r''
 expressao_regular_8 = r''
 expressao_regular_9 = r''
@@ -41,4 +41,4 @@ def pesquisa(ER):
 #Main
 if __name__ == '__main__':
   
-  pesquisa (expressao_regular_5)
+  pesquisa (expressao_regular_6)
