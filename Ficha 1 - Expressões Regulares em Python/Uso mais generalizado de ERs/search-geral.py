@@ -5,8 +5,8 @@ import re
 expressao_regular_1 = r'padrão'
 expressao_regular_2 = r'^(PRH|JCR)'
 expressao_regular_3 = r'^[0-9]+' #r'^\d+'
-expressao_regular_4 = r''
-expressao_regular_5 = r''
+expressao_regular_4 = r'PMoura$'
+expressao_regular_5 = r'[a-z|A-Z|!.]$' #r'(?i:[A-Z|.!]$)'
 expressao_regular_6 = r''
 expressao_regular_7 = r''
 expressao_regular_8 = r''
@@ -16,7 +16,6 @@ expressao_regular_9_b = r''
 expressao_regular_10 = r''
 expressao_regular_11 = r''
 expressao_regular_12 = r''
-
 
 
 #Função que analisa um texto, linha a linha, à procura do primeiro padrão -re.search- que corresponda à expressão regular passada como parâmetro
