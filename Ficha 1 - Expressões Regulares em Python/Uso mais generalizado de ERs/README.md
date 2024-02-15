@@ -4,3 +4,9 @@ Caractéres Especiais nas Expressões Regulares
 
 $  (Fim da Linha)
 ```
+
+\
+Equivalências nas Expressões Regulares
+```
+\d <=> [0-9]
+```
