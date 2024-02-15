@@ -41,4 +41,4 @@ def pesquisa(ER):
 #Main
 if __name__ == '__main__':
   
-  pesquisa (expressao_regular_3)
+  pesquisa (expressao_regular_5)
